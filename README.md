@@ -1,0 +1,2 @@
+# elasticsearch-pool
+官方提供的API接口没有池化的概念，为了提升访问效率，基于commons-pool2实现了一个用于访问ElasticSearch的客户端连接池。
